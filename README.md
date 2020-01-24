@@ -13,10 +13,15 @@ A program that takes user input of an integer value and returns a range of value
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Returns a range from 0 to user input value** | 4 | 0, 1, 2, 3, 4 |
-| **Replaces the value 1 in the return range with "Beep"** | User input: 4 | Output: 0, "beep", 1, 2, 3, 4, |
-| **Replaces the value 2 in the return range with "Boop"**| User Input: "pants pants" | Output: "pantspants" |
-| **Replaces the value 3 in the return range with "I'm sorry Dave, I can'rt do that"**| Input: "p#an^t@s  /p(ant%s" | Output: "pantspants" |
-| **Program Assigns Characters Numeric Values** | Input: "pants" | Output: "3 1 1 1 1" |
+| **Replaces the value 1 in the return range with "Beep"** | User input: 4 | Output: 0, "Beep!", 1, 2, 3, 4, |
+| **While maintaining the priot spec, Replaces the value 2 in the return range with "Boop"**| User Input: 4 | Output: 0, "Beep!","Boop",3, 4|
+| **While maintaining the prior 2 specs, Replaces the value 3 in the return range with "I'm sorry Dave, I can't do that"**| Input: 4 | Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4  |
+| **Changes the value 13 in the returned range to "I'm sorry Dave, I can't do that"** | Input: 13| Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4, 5...10, 11, 12, "I'm sorry Dave, I can't do that" |
+| **Changes the value 21 in the returned range to "Boop"**| Input: 21| Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4, 5...19, 20, "Boop" |
+| **Changes the value 32 in the returned range to "I'm sorry Dave, I can't do that"**| Input: 32 | Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4, 5...29, 30, 31 "I'm sorry Dave, I can't do that" |
+| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
+| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
+| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
 | **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
 
 ## Setup/Installation Requirements
