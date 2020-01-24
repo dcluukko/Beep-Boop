@@ -36,13 +36,13 @@ A program that takes user input of an integer value and returns a range of value
 * No known bugs at this time.
 
 ## Technologies Used
-* C#
-  * Nancy framework
-  * Razor View Engine
-  * ASP.NET Kestrel HTTP server
-  * xUnit
-
 * HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
+ 
+
 
 ## Support and contact details
 
