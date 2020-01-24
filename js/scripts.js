@@ -21,9 +21,14 @@ $(document).ready(function () {
 
             for (var i = 0; i <= input; i++) {
                 blankArray.push(i);
-                return blankArray    
+                var arraySplit = blankArray.slice();
+                if (arraySplit.includes([1]) ) {
+                    $("#beep").show();
+                }
+                // $("#response").text(blankArray); 
+
             }
-           console.log(blankArray);
+          
         
 
 
