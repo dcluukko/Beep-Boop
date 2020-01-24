@@ -1,15 +1,13 @@
-
+var returnNumber
 
 var createRange = function(returnNumber) {
-// var rangeNums = [returnNumber];
-// var addemUp = rangeNums.map(function(rangeNum) {
-//     rangeNum + 1;
-// });
-// alert(addemUp);
-
+    total = 0
     for (var index = 0; index <= returnNumber; index += 1)
     console.log(returnNumber);
+    
 }
+
+
     
 
 $(document).ready(function() {
@@ -17,6 +15,6 @@ $(document).ready(function() {
         event.preventDefault();
         var input = parseInt($("input#number").val()) ;
         input = createRange(input);
-        
+       
     });
 });
