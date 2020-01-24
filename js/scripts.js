@@ -1,20 +1,33 @@
-var returnNumber
 
-var createRange = function(returnNumber) {
-    total = 0
-    for (var index = 0; index <= returnNumber; index += 1)
-    console.log(returnNumber);
-    
-}
+// var Userinput = function (newArray) {
+//     var blankArray = []
+
+//     for (var i = 0; i <= newArray; i++) {
+//         blankArray.push(i);
+//         console.log(blankArray);
+//     }
+// }
 
 
-    
 
-$(document).ready(function() {
-    $("form#range-returner").submit(function(event) {
+
+
+$(document).ready(function () {
+    $("form#range-returner").submit(function (event) {
         event.preventDefault();
-        var input = parseInt($("input#number").val()) ;
-        input = createRange(input);
-       
+        var input = parseInt($("input#number").val());
+        
+            var blankArray = []
+
+            for (var i = 0; i <= input; i++) {
+                blankArray.push(i);
+                return blankArray    
+            }
+           console.log(blankArray);
+        
+
+
+
+
     });
 });
