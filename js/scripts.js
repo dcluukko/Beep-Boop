@@ -7,9 +7,8 @@ for (var i = 0; i <= forArray; i++) {
     var intoString = blankArray.toString();
     if (intoString.includes("1")) {
         intoString.replace(/1/g, "beep");
-        $("#response").text(intoString);
-    }
-  }
+     }
+  } 
 };
 
 
