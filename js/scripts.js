@@ -4,20 +4,14 @@ var heresOne;
 var userInput = function(forArray) {
 for (var i = 0; i <= forArray; i++) {
     blankArray.push(i);
-    return blankArray
-    
+    var intoString = blankArray.toString();
+    if (intoString.includes("1")) {
+        intoString.replace(/1/g, "beep");
+        $("#response").text(intoString);
+    }
   }
 };
-var findOne = function(numberInput) {
-    var rangeArray = numberInput;
-    for ( var i = 0; i <= numberInput; i ++ ){
-        console.log(rangeArray);
-      if (rangeArray.includes("13") ){
-        alert("truth!");
-      }
-    }       
-  };
-  
+
 
 
 
@@ -26,7 +20,7 @@ $(document).ready(function () {
         event.preventDefault();
         var input = parseInt($("input#number").val());
         input = userInput(input)
-        input = findOne(input); 
+        
           
         
           
