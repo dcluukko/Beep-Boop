@@ -19,21 +19,17 @@ A program that takes user input of an integer value and returns a range of value
 | **Changes the value 13 in the returned range to "I'm sorry Dave, I can't do that"** | Input: 13| Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4, 5...10, 11, 12, "I'm sorry Dave, I can't do that" |
 | **Changes the value 21 in the returned range to "Boop"**| Input: 21| Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4, 5...19, 20, "Boop" |
 | **Changes the value 32 in the returned range to "I'm sorry Dave, I can't do that"**| Input: 32 | Output: 0, "Beep!","Boop","I'm sorry Dave, I can't do that", 4, 5...29, 30, 31 "I'm sorry Dave, I can't do that" |
-| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
-| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
-| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
-| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
 
 ## Setup/Installation Requirements
 
-1. To run this program, you must have a C# compiler. I use [Mono](http://www.mono-project.com).
-2. Install the [Nancy](http://nancyfx.org/) framework to use the view engine. Follow the link for installation instructions.
-3. Clone this repository.
-4. Open the command line--I use PowerShell--and navigate into the repository. Use the command "dnx kestrel" to start the server.
-5. On your browser, navigate to "localhost:5004" and enjoy!
-
+1. To run this program clone the following github repository:
+ https://github.com/dcluukko/ind-proj-3.git
+2. Navigate into the directory "ind-proj-3" and type "open index.html"
+3. Enter a number into the form and click "Get your range!"
+4. Your range should return with 1 replaced with "beep", 2 replaced with "boop", and 3 replaced with "I'm sorry David, I can't do that"
+5. Furthermore, the numbers 13 and 32should be replaced with "I'm sorry Dave, I can't do that" and the number 21 should be replaced with "boop". 
 ## Known Bugs
-* No known bugs at this time.
+* Most of the tasks listed in this readme have not been completed.
 
 ## Technologies Used
 * HTML
@@ -46,10 +42,10 @@ A program that takes user input of an integer value and returns a range of value
 
 ## Support and contact details
 
-_Email no one with any questions, comments, or concerns._
+_Email: Dcluukko@gmail.com for questions, comments, concerns._
 
 ### License
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2017 **_{Marilyn Carlin, David Wilson}_**
+Copyright (c) 2020 **_{Dana Luukko, Epicodus}_**
