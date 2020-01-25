@@ -1,32 +1,39 @@
+//Business logic
 
-var blankArray = []
-var heresOne;
-var userInput = function(forArray) {
-for (var i = 0; i <= forArray; i++) {
-    blankArray.push(i);
-    var intoString = blankArray.toString();
-    if (intoString.includes("1")) {
-        intoString.replace(/1/g, "beep");
-     }
-  } 
-};
+function generateRangeOfNum(input) {
+	var range = []
+	for (var i = 0; i <= input; i++) {
+		range.push(i)
+	}
+	return range
+}
+
+function generateRangeOfStrings(rangeofNum) {
+	var beepBoopDaveRange = rangeofNum.map(function (number) {
+		var stringifiedNumber = number.toString();
+		if (stringifiedNumber.includes("3")) {
+			return "Dave"
+		} else if (stringifiedNumber.includes("2")) {
+			return "boop"
+		} else if (stringifiedNumber.includes("1")) {
+			return "beep"
+		} else {
+			return stringifiedNumber
+		}
+	})
+	console.log("beepBoopDaveRange", beepBoopDaveRange);
+	return beepBoopDaveRange.join(", ")
+}
 
 
-
+//User interface logic
 
 $(document).ready(function () {
-    $("form#range-returner").submit(function (event) {
-        event.preventDefault();
-        var input = parseInt($("input#number").val());
-        input = userInput(input)
-        
-          
-        
-          
-        
-
-
-
-
-    });
+	$("form#range-returner").submit(function (event) {
+		event.preventDefault();
+		var input = parseInt($("input#number").val());
+		var rangeOfNum = generateRangeOfNum(input)
+		var rangeWithStrings = generateRangeOfStrings(rangeOfNum)
+		$("#response").text(rangeWithStrings);
+	});
 });
