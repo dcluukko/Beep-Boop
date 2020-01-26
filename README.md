@@ -6,7 +6,7 @@
 
 ## Description
 
-A program that takes user input of an integer value and returns a range of values starting from 0 and ending at the value of the user input. If the input contains a 1, 2, or 3, those values in the range will be replaced with "beep", "boop", and "I'm sorry Dave, I can't do that" respectively. 
+A program that takes user input of an integer value and returns a range of values starting from 0 and ending at the value of the user input. If the range contains a 1, 2, or 3, those values in the range will be replaced with "beep", "boop", and "I'm sorry Dave, I can't do that" respectively. 
 
 
 ### Specs
