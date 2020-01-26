@@ -25,7 +25,7 @@ A program that takes user input of an integer value and returns a range of value
 3. Enter a number into the form and click "Get your range!"
 4. Your range should return with 1 replaced with "beep", 2 replaced with "boop", and 3 replaced with "I'm sorry David, I can't do that"
 5. Furthermore, any iteraton of the numbers 1, 2, and 3 should also be replaced with "beep", "boop", and "I'm sorry Dave. I can't so that" respectively. 
-  |**Example**|
+  **Example**
  | Input | Output |
  | :-------------     | :------------- |
  | 13  | 0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, Dave |
