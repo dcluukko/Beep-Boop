@@ -12,7 +12,7 @@ function generateRangeOfStrings(rangeofNum) {
 	var beepBoopDaveRange = rangeofNum.map(function (number) {
 		var stringifiedNumber = number.toString();
 		if (stringifiedNumber.includes("3")) {
-			return "Dave"
+			return "I'm sorry Dave I'm afraid I can't do that."
 		} else if (stringifiedNumber.includes("2")) {
 			return "boop"
 		} else if (stringifiedNumber.includes("1")) {
