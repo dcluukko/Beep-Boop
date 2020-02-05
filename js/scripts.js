@@ -1,5 +1,4 @@
 //Business logic
-
 function generateRangeOfNum(input) {
 	var range = []
 	for (var i = 0; i <= input; i++) {
@@ -7,7 +6,6 @@ function generateRangeOfNum(input) {
 	}
 	return range
 }
-
 function generateRangeOfStrings(rangeofNum) {
 	var beepBoopDaveRange = rangeofNum.map(function (number) {
 		var stringifiedNumber = number.toString();
@@ -24,10 +22,7 @@ function generateRangeOfStrings(rangeofNum) {
 	console.log("beepBoopDaveRange", beepBoopDaveRange);
 	return beepBoopDaveRange.join(", ");
 }
-
-
 //User interface logic
-
 $(document).ready(function () {
 	$("form#range-returner").submit(function (event) {
 		event.preventDefault();
