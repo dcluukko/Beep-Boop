@@ -1,5 +1,5 @@
-# "Beep", "Boop", "I'm Sorry Dave. I can't do that." Range Returner
-
+# Independent Project 2: "Beep", "Boop", "I'm Sorry Dave. I can't do that." Range Returner
+# 1/24/2020
 #### A program that takes user input of an integer value and returns a range.
 
 #### By **Dana Luukko**
@@ -13,28 +13,28 @@ A program that takes user input of an integer value and returns a range of value
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Returns a range from 0 to user input value** | 4 | 0, 1, 2, 3, 4 |
-| **Replaces the value 1 in the return range with "Beep"** | User input: 4 | Output: 0, "Beep!", 1, 2, 3, 4, |
-| **While maintaining the priot spec, Replaces the value 2 in the return range with "Boop"**| User Input: 4 | Output: 0, "Beep!","Boop",3, 4|
-| **While maintaining the prior 2 specs, Replaces the value 3 in the return range with "I'm sorry Dave, I can't do that"**| Input: 4 | Output: 0, "Beep!","Boop","I'm sorry Dave. I can't do that", 4  |
-
+| **Replaces the value 1 in the return range with "Beep"** | 4 | Output: 0, "Beep!", 1, 2, 3, 4, |
+| **While maintaining the priot spec, Replaces the value 2 in the return range with "Boop"**| 4 | Output: 0, "Beep!","Boop",3, 4|
+| **While maintaining the prior 2 specs, Replaces the value 3 in the return range with "I'm sorry Dave, I can't do that"**| 4 | Output: 0, "Beep!","Boop","I'm sorry Dave. I can't do that", 4  |
+|**Replace 13 with "I'm sorry Dave. I can't do that."** | 13  | 0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, I'm sorry Dave. I can't do that. |
+|**Replace 21 with "boop"** | 21 |  0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, Dave, beep, beep, beep, beep, beep, beep, boop, boop  |
+|**Replace 32 with I'm sorry Dave. I can't do that"** | 32 | 0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, Dave, beep, beep, beep, beep, beep, beep, boop, boop, boop, Dave, boop, boop, boop, boop, boop, boop, Dave, Dave, I'm sorry Dave. I can't do that. |
 ## Setup/Installation Requirements
 
-1. To run this program clone the following github repository:
- https://github.com/dcluukko/ind-proj-3.git
-2. Navigate into the directory "ind-proj-3" and type "open index.html"
-3. Enter a number into the form and click "Get your range!"
-4. Your range should return with 1 replaced with "beep", 2 replaced with "boop", and 3 replaced with "I'm sorry David, I can't do that"
-5. Furthermore, any iteraton of the numbers 1, 2, and 3 should also be replaced with "beep", "boop", and "I'm sorry Dave. I can't so that" respectively. 
+1. Navigated to desktop in command:
+$ cd desktop 
+2. Clone Git repository to desktop:
+$ git clone https://github.com/dcluukko/ind-proj-3.git
+2. Navigate into the directory "ind-proj-3":
+$ cd ind-proj-3
+3. Open the html file in web browser:
+$ open index.html
+4. Enter a number into the form and click the button labeled "Get Your Range!"
+5. The user should recieve a range from 0 to the number inputted with the numbers 1, 2, and 3 replaced with "Beep", "Boop", and "I'm sorry Dave. I can't do that"
  
- ### Example  
-| Input  | Output  |
-|---|---|
-| 13  | 0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, Dave  |
-| 21 |  0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, Dave, beep, beep, beep, beep, beep, beep, boop, boop  |
-| 32 |  0, beep, boop, Dave, 4, 5, 6, 7, 8, 9, beep, beep, boop, Dave, beep, beep, beep, beep, beep, beep, boop, boop, boop, Dave, boop, boop, boop, boop, boop, boop, Dave, Dave, Dave |
- 
+
 ## Known Bugs
-* Most of the tasks listed in this readme have not been completed.
+* No known bugs.
 
 ## Technologies Usedit
 * HTML
@@ -53,4 +53,4 @@ _Email: Dcluukko@gmail.com for questions, comments, concerns._
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2020 **_{Dana Luukko, Epicodus}_**
+Copyright (c) 2020 **_Dana Luukko, Epicodus_**

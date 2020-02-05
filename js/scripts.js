@@ -18,11 +18,11 @@ function generateRangeOfStrings(rangeofNum) {
 		} else if (stringifiedNumber.includes("1")) {
 			return "beep"
 		} else {
-			return stringifiedNumber
+			return stringifiedNumber;
 		}
 	})
 	console.log("beepBoopDaveRange", beepBoopDaveRange);
-	return beepBoopDaveRange.join(", ")
+	return beepBoopDaveRange.join(", ");
 }
 
 
@@ -32,8 +32,8 @@ $(document).ready(function () {
 	$("form#range-returner").submit(function (event) {
 		event.preventDefault();
 		var input = parseInt($("input#number").val());
-		var rangeOfNum = generateRangeOfNum(input)
-		var rangeWithStrings = generateRangeOfStrings(rangeOfNum)
+		var rangeOfNum = generateRangeOfNum(input);
+		var rangeWithStrings = generateRangeOfStrings(rangeOfNum);
 		$("#response").text(rangeWithStrings);
 	});
 });
